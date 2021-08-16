@@ -1,0 +1,6 @@
+<div>
+  <input [(ngModel)]="name" type="text" placeholder="     Search for a video..." size="50">
+  <button (click)="getVideos()">Get Videos</button>
+</div>
+<!-- <p>{{name}}</p> -->
+  <app-listing  [listing]="videoListFromAPI"></app-listing>

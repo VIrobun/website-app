@@ -1,0 +1,10 @@
+<div class="align">
+  <img id="thumb" src="{{thumbnail}}" >
+<div>
+  <p id="title"><a href="http://dailymotion.com/video/{{id}}" target="_blank">{{title}}</a></p>
+  <p><img id="pfp" src="{{avatar}}" > {{username}}</p>
+  <p>Date Posted: {{createdTime * 1000 | date}} | Views: {{views}}</p>
+  <button *ngIf="(show === true)" [ngClass]="change" (click)="store()">{{display}}</button>
+</div>
+ 
+</div>

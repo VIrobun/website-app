@@ -1,0 +1,18 @@
+button{
+  size: 30;
+  background-color: rgb(29, 179, 230);
+  padding: 16px;
+  border-radius: 21px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+div{
+  text-align: center;
+  margin-right: 20px;
+}
+
+h1{
+  text-align: center;
+}
